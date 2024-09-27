@@ -1,0 +1,348 @@
+body{
+    display: flex;
+    background-color: #A80038;
+    position: relative;
+}
+.pokedex{
+    display: flex;
+    width: 394px;
+    background-color: #FD0054;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    border: 3px solid black;
+    height: 25px;
+    width: 530px;
+    margin-left: 0px;
+    box-shadow: 8px 8px 48px 8px rgb(88, 25, 25);
+    position: absolute;
+    left: 280px;
+}
+ 
+.he{
+    background-color: #FBF9FA;
+    border: 1px solid black;
+    border-radius: 24px;
+    width: 870px;
+    height: 20px;
+    align-items: center;padding: 5px;
+    text-align: left;
+}
+.legenda{
+    box-shadow: 8px 8px 48px 8px rgb(88, 25, 25);
+    height: 700px;
+    width: 240px;
+    border-radius: 12px;
+    border: 3px solid #000;
+    position: absolute;
+    right: 950px;
+    top: 0px;
+    bottom: 120px;
+    background-color: #FD0054;
+}
+.câmera{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 40px;
+    border-radius: 24px;
+    border: 3px solid black;
+    padding: 5px;
+    align-items: center;
+}
+.câmera2{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(69, 140, 227);
+    margin: 40px;
+    border-radius: 24px;
+    align-items: center;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 5px;
+}
+.legenda2{
+    list-style-type: none;
+    margin-top: 70px;
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+    margin-top: 20px;
+    gap: 50px;
+}
+.greninja{
+    width: 80px;
+    align-items: center;
+    padding: 5px;
+}
+.t1{
+    padding: 3px;
+    border: 2px outset #A80038;
+    border-radius: 10px;
+}
+.t2{
+    padding: 5px;
+    border: 2px outset #A80038;
+    border-radius: 10px;
+}
+.t3{
+    padding: 5px;
+    border: 2px outset #A80038;
+    border-radius: 10px;
+}
+.t4{
+    padding: 5px;
+    border: 2px outset #A80038;
+    border-radius: 10px;
+}
+.t5{
+    padding: 5px;
+    border: 2px outset #A80038;
+    border-radius: 10px;
+}
+.t6{
+    padding: 5px;
+    border: 2px outset #A80038;
+    border-radius: 10px;
+}
+.t7{
+    padding: 5px;
+    border: 2px outset #A80038;
+    border-radius: 10px;
+}
+.pokemon{
+    background-color: #ffffff;
+    border-radius: 17000000px;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: 880px;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 8px 8px 48px 8px rgb(88, 25, 25);
+}
+.pokemon2{
+    height: 40px;
+    gap: 2px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.greninja2{
+    height: 35px;
+    width: auto;
+}
+.pokemon1{
+    width: 60px;
+    height: 40px;
+}
+.txtpkm{
+ position: absolute;
+ left: 970px;
+}
+.icone{
+    position: absolute;
+    left: 1070px;
+}
+.icn{
+    height: 120px;
+    width: 200px;
+}
+.sobre{
+    width: 800px;
+    height: 240px;
+    position: absolute;
+    left: 280px;
+    top: 90px;
+    border: 3px solid black;
+    border-radius: 24px;
+    background-color: #FD0054;
+    box-shadow: 8px 8px 48px 8px rgb(88, 25, 25);
+}
+.txtsobre{
+    margin-left: 30px;
+    margin-top: 20px;
+    gap: 10px;
+}
+.imgGreninja{
+    position: absolute;
+    left: 490px;
+    bottom: 0px;
+}
+.AshGreninja{
+    height: 250px;
+}
+.descricao{
+    margin-bottom: 20px;
+}
+.descricao2{
+    padding:5px;
+}
+.status{
+    position: absolute;
+    left: 300px;
+    top: 400px;
+}
+.tipos{
+    height: 120px;
+    width: 200px;
+    border: 2px solid black;
+    position:absolute;
+    left: 280px;
+    top: 470px;
+    background-color: #FD0054;
+    border-radius: 24px;
+    box-shadow: 8px 8px 48px 8px rgb(88, 25, 25);
+    text-align: center;
+}
+.tipos2{
+    height: 120px;
+    width: 200px;
+    border: 2px solid black;
+    position:absolute;
+    left: 520px;
+    top: 470px;
+    background-color: #FD0054;
+    border-radius: 24px;
+    box-shadow: 8px 8px 48px 8px rgb(88, 25, 25);
+    text-align: center;
+}
+.tipos3{
+    height: 120px;
+    width: 200px;
+    border: 2px solid black;
+    position:absolute;
+    left: 750px;
+    top: 470px;
+    background-color: #FD0054;
+    border-radius: 24px;
+    box-shadow: 8px 8px 48px 8px rgb(88, 25, 25);
+    text-align: center;
+}
+.shiny{
+    height: 100px;
+    width: 300px;
+    border: 2px solid black;
+    position:absolute;
+    left: 280px;
+    top: 600px;
+    background-color: #FD0054;
+    border-radius: 24px;
+    box-shadow: 8px 8px 48px 8px rgb(88, 25, 25);
+}
+.normal{
+    height: 100px;
+    width: 300px;
+    border: 2px solid black;
+    position:absolute;
+    left: 650px;
+    top: 600px;
+    background-color: #FD0054;
+    border-radius: 24px;
+    box-shadow: 8px 8px 48px 8px rgb(88, 25, 25);
+}
+.shiny2{
+height: 80px;
+width: 80px;
+background-color: white;
+border: 2px solid black;
+border-radius: 24px;
+position: absolute;
+left: 200px;
+top: 10px;
+}
+.GreShiny{
+    height: 80px;
+    width: 80px;
+}
+.txt{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.txtnorm{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.GreNorm{
+    height: 80px;
+    width: 80px;
+}
+.normal2{
+    height: 80px;
+width: 80px;
+background-color: white;
+border: 2px solid black;
+border-radius: 24px;
+position: absolute;
+left: 200px;
+top: 10px;
+text-align: center;
+}
+.curiosidade{
+    height: 230px;
+    width: 200px;
+    border: 2px solid black;
+    position:absolute;
+    left: 980px;
+    top: 470px;
+    background-color: #FD0054;
+    border-radius: 24px;
+    box-shadow: 8px 8px 48px 8px rgb(88, 25, 25);
+    text-align: center;
+}
+.evolução1{
+    height: 60px;
+    width: 60px;
+    border-radius: 3000px;
+    position: absolute;
+    left: 920px;
+    top: 380px;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+}
+.evolução2{
+    height: 60px;
+    width: 60px;
+    border-radius: 3000px;
+    position: absolute;
+    left: 1020px;
+    top: 380px;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+}
+.evolução3{
+    height: 60px;
+    width: 60px;
+    border-radius: 3000px;
+    position: absolute;
+    left: 1120px;
+    top: 380px;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+}
+.froakie{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+}
+.frogadier{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+}
+.final{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+}
+.evoluções{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 990px;
+    top: 320px;
+    text-align: center;
+}
